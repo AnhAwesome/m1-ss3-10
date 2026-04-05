@@ -9,7 +9,7 @@
 </head>
 
 <body>
-    <div>
+    <section>
         <h2>Cat Photos</h2>
         <nav>
             Everyone loves <a
@@ -22,8 +22,8 @@
         </nav>
         <img src="https://static.boredpanda.com/blog/wp-content/uploads/2022/06/20220626_195725-62b8b29245171__880.jpg"
             alt="WAP" width="300" height="300">
-    </div>
-    <div>
+    </section>
+    <section>
         <h2>Cat Lists</h2>
         <div>
             <h3>Things cats love:</h3>
@@ -44,8 +44,120 @@
         </div>
         <div>
             <h3>Top 3 things cat hate:</h3>
+            <ol>
+                <li>flea treatment</li>
+                <li>thunder</li>
+                <li>other cats</li>
+            </ol>
+            <ul style="list-style-type: none;">
+                <li>
+                    <img src="https://cats.com/wp-content/uploads/2022/12/group-of-cats-compressed.jpg"
+                        alt="Kindle of kittens" width="500" height="250">
+                </li>
+                <li>
+                    <span>Cats <b>hate</b> other cat.</span>
+                </li>
+            </ul>
         </div>
-    </div>
+    </section>
+    <section>
+        <h2>Cat Breed</h2>
+        <table border="1" cellspacing="1" cellpadding="5">
+            <thead>
+                <th>Breed</th>
+                <th>Location of origin</th>
+                <th>Type</th>
+                <th>Body type</th>
+                <th>Coat type and length</th>
+                <th>Coat pattern</th>
+                <th>Image</th>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><a href="https://en.wikipedia.org/wiki/Abyssinian_cat">Abyssinian</a></td>
+                    <td>Unspecified, but somewhere in Afro-Asia, likely <a
+                            href="https://en.wikipedia.org/wiki/Ethiopia">Ethiopia</a></td>
+                    <td>Natural</td>
+                    <td>Semi-foreign</td>
+                    <td>Short</td>
+                    <td>Ticked tabby</td>
+                    <td><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Gustav_chocolate.jpg/250px-Gustav_chocolate.jpg"
+                            alt="Abyssinian"></td>
+                </tr>
+                <tr>
+                    <td><a href="https://en.wikipedia.org/wiki/Aegean_cat">Aegean</a></td>
+                    <td>Greece</td>
+                    <td>Natural</td>
+                    <td>Moderate</td>
+                    <td>Semi-long</td>
+                    <td>Multi-color</td>
+                    <td><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Aegean_Island_Cat.jpg/250px-Aegean_Island_Cat.jpg"
+                            alt="Aegean"></td>
+                </tr>
+                <tr>
+                    <td><a href="https://en.wikipedia.org/wiki/American_Bobtail">American Bobtail</a></td>
+                    <td>United States</td>
+                    <td>Mutation of shortened tail</td>
+                    <td>Cobby</td>
+                    <td>Semi-long</td>
+                    <td>All</td>
+                    <td><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/American_bobtail_2.jpg/250px-American_bobtail_2.jpg"
+                            alt="American Bobtail"></td>
+                </tr>
+                <tr>
+                    <td><a href="https://en.wikipedia.org/wiki/American_Curl">American Curl</a></td>
+                    <td>United States</td>
+                    <td>Mutation</td>
+                    <td>Semi-foreign</td>
+                    <td>Semi-long</td>
+                    <td>All</td>
+                    <td><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/American_curl_2.jpg/250px-American_curl_2.jpg"
+                            alt="American Curl"></td>
+                </tr>
+                <tr>
+                    <td><a href="https://en.wiktionary.org/wiki/American_Ringtail">American Ringtail</a></td>
+                    <td>United States</td>
+                    <td>Mutation</td>
+                    <td>Foreign</td>
+                    <td>Semi-long</td>
+                    <td>All</td>
+                    <td><img src="https://www.wayofcats.com/blog/wp-content/uploads/2025/11/cat_named_baby_spitz_tail_2-bocaratonobserver-862x862.jpg"
+                            alt="American Ringtail" width="250" height="250"></td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+    <section>
+        <h2>Cat Form</h2>
+        <form action="">
+            <fieldset>
+                <legend>Is your cat an indoor or outdoor cat?</legend>
+                <label for="in">
+                    <input type="radio" name="in-out" value="indoor" id="in">Indoor
+                </label>
+                <label for="out">
+                    <input type="radio" name="in-out" value="outdoor" id="out">Outdoor
+                </label>
+            </fieldset>
+            <fieldset>
+                <legend>What's your cat's personality?</legend>
+                <label for="loving">
+                    <input type="checkbox" name="personality" id="loving" value="loving">Loving
+                </label>
+                <label for="lazy">
+                    <input type="checkbox" name="personality" id="lazy" value="lazy">Lazy
+                </label>
+                <label for="energetic">
+                    <input type="checkbox" name="personality" id="energetic" value="energetic">Energetic
+                </label>
+            </fieldset>
+            <div>
+                <input type="url" name="photo" id="photo" placeholder="cat photo URL"> <button>Submit</button>
+            </div>
+        </form>
+    </section>
 </body>
-
+<footer>
+    <span>No Copyright - <a href="https://rikkei.edu.vn/">rikkei.edu.vn</a></span>
+</footer>
 </html>
